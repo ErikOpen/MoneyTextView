@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/fengyuexin/Documents/github/MoneyTextView/sample/build/intermediates/exploded-aar/MoneyTextView/lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a5ea1ce60af7a377f82047b1f064c52d366dbfda">
+        <dex dex="/Users/fengyuexin/Documents/github/MoneyTextView/sample/build/intermediates/pre-dexed/debug/MoneyTextView-lib-unspecified_a69aca9957b3e6abe7e8363b0d30e8dc12a7d7c9.jar" />
+    </item>
+
+</items>
