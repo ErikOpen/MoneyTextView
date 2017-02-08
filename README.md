@@ -1,6 +1,6 @@
 # MoneyTextView
 
-MoneyTextView Widget For Android Developers
+A EditText used for inputing and adding money.
 
 <img src="https://github.com/andyken/MoneyTextView/blob/master/sample/sample1.gif"/>
 
