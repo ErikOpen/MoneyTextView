@@ -87,10 +87,8 @@ public class MoneyTextView extends EditText {
 		setTextIsSelectable(true);
 		setLongClickable(false);
 		setPadding(0, 0, 0, 0);
-		/*
-		默认不显示光标 当拥有focus的时候再置光标为显示
-		cursor will show when focusing
-		 */
+		//默认不显示光标 当拥有focus的时候再置光标为显示
+		//cursor will show when focusing
 		setCursorVisible(false);
 	}
 
@@ -591,7 +589,7 @@ public class MoneyTextView extends EditText {
 	 * 根据给定的money值得到selection的位置
 	 * get selection base on money
 	 * @param money
-	 * @return
+	 * @return the selection of cursor
 	 */
 	public int getMoneySelection(double money) {
 		String moneyStr = formatMoney(money);
@@ -619,7 +617,7 @@ public class MoneyTextView extends EditText {
 	 * convert xx.x0 to xx.x
 	 * the x is not zero
 	 * @param moneySum
-	 * @return
+	 * @return moneyString
 	 */
 	private String formatMoney(double moneySum) {
 		NumberFormat nf = NumberFormat.getInstance();
@@ -651,6 +649,7 @@ public class MoneyTextView extends EditText {
 	/**
 	 * 根据内容宽度 和总宽度计算出实际的字体大小
 	 * calculate the width of textview base on the inputing
+	 * @return width of textview
 	 */
 	private int getTextViewWidth() {
 		Rect bounds = new Rect();
