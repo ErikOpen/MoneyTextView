@@ -1,4 +1,4 @@
-package com.github.andyken.moneytextviewlib;
+package com.github.andyken.moneytextview;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.github.andyken.moneytextviewlib.MoneyTextView;
+import com.github.andyken.moneytextview.MoneyTextView;
 /**
  * Created by andyken on 16/2/10.
  */

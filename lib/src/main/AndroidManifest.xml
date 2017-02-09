@@ -1,4 +1,4 @@
-<manifest package="com.github.andyken.moneytextviewlib"
+<manifest package="com.github.andyken.moneytextview"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<application

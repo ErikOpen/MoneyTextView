@@ -14,7 +14,7 @@
 		android:layout_marginRight="15dp"
 		android:background="@drawable/bg_line_gray">
 
-		<com.github.andyken.moneytextviewlib.MoneyTextView
+		<com.github.andyken.moneytextview.MoneyTextView
 			android:id="@+id/main_moneyTextView"
 			android:layout_width="130dp"
 			android:layout_height="65dp"
